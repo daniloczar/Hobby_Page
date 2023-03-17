@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+/*
+
+menu topo - background-color: #272727
+menu links fundo color: #333
+letra menu color: #999
+menu link hight: 41px 
+
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+*:root {
+    --cor1: #471212;
+    --cor2: #181818;
+    --cor3: #272727;
+    --cor4: #ED4746;
+    --cor5: #C0392B;
+    --cor6: #999999;
+
+    --font01: 'Open Sans', sans-serif;
+    --font02: Arial, Verdana, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--cor3);
+    font-family: var(--font01);
+}
+
+
+
+.logo-container > img{
+    height: 80px;
+    width: 80px;
+    margin: 0.5% 10%;
+    padding: 8px
+}
+/*.link-container > nav{
+    height: 41px;
+    border-top: 1px solid #333333;
+    box-shadow: 0 5px 15px 0 rgb(50 50 50 / 50%);
+    text-align: center;
+}
+
+nav > ul{
+    display: inline-block;
+    
+}
+
+nav > ul > li{
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+nav > ul > li > a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--cor6);
+    border-right: 1px solid #333333;
+    padding: 5px;
+    
+}*/
+
+menu ul{
+    border-top: 1px solid #333333;
+    box-shadow: 0 5px 15px 0 rgb(50 50 50 / 50%);
+    text-align: center;
+    color: var(--cor6);
+    padding:10px
+    
+}
+
+menu li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #333333;
+    
+
+    
+}
+
+body{
+    background-color:lightgray;
+    min-height: 100vh;
+}
+
+.conteudo{
+    background-color: white;
+    font-family: var(--font01);
+    border-radius: 8px;
+    text-align: justify;
+    padding: 20px;
+}
+
+main{
+    max-width: 800px;
+    margin: 15px auto;
+}
+
+main > section > h1{
+    margin: 5px;
+    padding: 10px 5px;
+    font-size: 2.5rem;
+}
+
+article > h2{
+    margin: 5px;
+    padding: 5px;
+}
+
+article p {
+    margin: 5px;
+    padding: 5px;
+    text-indent: 20px;
+    line-height: 1.3em;
+}
+
+article > ol{
+    list-style-position: inside;
+    margin: 5px;
+    padding: 5px;
+}
+
+article > img{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--cor3);
+
+}
