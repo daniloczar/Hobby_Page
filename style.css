@@ -11,7 +11,7 @@ menu link hight: 41px
 
 */
 
-*{
+*{ box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
@@ -28,65 +28,72 @@ menu link hight: 41px
     --font02: Arial, Verdana, Helvetica, sans-serif;
 }
 
-header{
-    background-color: var(--cor3);
-    font-family: var(--font01);
+body{
+    background-color:lightgray;
+    min-height: 100vh;
 }
 
+header{
+    background-color: var(--cor3); 
+    box-shadow: 0 5px 15px 0 rgb(50 50 50 / 50%);
+}
 
-
-.logo-container > img{
+.logo{
     height: 80px;
     width: 80px;
     margin: 10px 20px;
-    padding: 8px
+    padding: 8px;
 }
 
-menu ul{
-    border-top: 1px solid #333333;
-    box-shadow: 0 5px 15px 0 rgb(50 50 50 / 50%);
+.navbar > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid #414141;
     list-style-type: none;
-    
+    font-family: var(--font01);
 }
 
-menu > ul > li > a{
+.navbar > ul > li {
+   
+    border-right: 1px solid #414141;
+}
+
+.navbar > ul > li > a{
     display: block;
     padding: 10px;
-    border-right: 1px solid #333333;
     text-decoration: none;
     color: var(--cor6);
     text-align: center;
     font-weight: bold;
 }
 
-menu > ul > li > a:hover{
+.navbar > ul > li > a:hover{
     background-color: white;
     color:var(--cor5);
-    transition: 0.5;
+    transition: 0.5s;
     
 }
 
-body{
-    background-color:lightgray;
-    min-height: 100vh;
-}
+
 
 .conteudo{
     background-color: white;
     font-family: var(--font01);
     border-radius: 8px;
     text-align: justify;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 main{
+    display: block;
     max-width: 85vw;
     margin: 15px auto;
 }
 
 main > section > h1{
     margin: 5px;
-    padding: 10px 5px;
+    padding: 5px 5px;
     font-size: 2.5rem;
 }
 
