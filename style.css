@@ -89,6 +89,10 @@ header{
     
 }
 
+.datetime{
+    color: white;
+}
+
 
 
 .conteudo{
@@ -130,6 +134,13 @@ article > ol{
 }
 
 article > img{
+    width: 100%;
+}
+
+.video {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
 }
 
