@@ -4,6 +4,20 @@
     nav > ul > li{
         border: 1px solid #414141;
     }
+
+    .social-media-container > img{
+        display:none;
+    }
+    #time{
+        display: block;
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: 1em;
+    }
+    #date{
+        display: block;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 768px) {
