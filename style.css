@@ -84,6 +84,7 @@ header{
     width: 22px;
     filter: invert(61%) sepia(3%) saturate(8%) hue-rotate(30deg) brightness(99%) contrast(87%);
     margin: 0px 5px;
+
 }
 
 .social-media-container > img:hover{
