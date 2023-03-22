@@ -6,6 +6,7 @@
         top:0;
         background-color: var(--cor3); 
         box-shadow: 0 5px 15px 0 rgb(50 50 50 / 50%);
+        font-size: 90%;
     }
 
     nav > ul > li{
@@ -19,11 +20,12 @@
         display: block;
         text-align: center;
         padding-bottom: 5px;
-        font-size: 1em;
+    
     }
     #date{
         display: block;
         text-align: center;
+        font-size: 90%;
     }
 
     main > section > h1{
