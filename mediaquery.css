@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 768px) {
+    span#burger{
+        position: sticky;
+        top:0;
+        background-color: var(--cor3); 
+        box-shadow: 0 5px 15px 0 rgb(50 50 50 / 50%);
+    }
+
     nav > ul > li{
         border: 1px solid #414141;
     }

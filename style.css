@@ -51,8 +51,7 @@ body{
 }
 
 header{
-    background-color: var(--cor3); 
-    box-shadow: 0 5px 15px 0 rgb(50 50 50 / 50%);
+    background-color: var(--cor3);
 }
 
 .logo{
@@ -65,7 +64,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
+    padding: 10px 20px 0px;
     font-size: 1rem;
 }
 
@@ -100,14 +99,17 @@ header{
 
 .navbar{
     display: none;
+    position: sticky;
+    top:0;
+    background-color: var(--cor3); 
+    box-shadow: 0 5px 15px 0 rgb(50 50 50 / 50%);
+    
 }
-
 .navbar > ul{
     border-top: 1px solid #414141;
     list-style-type: none;
     font-family: var(--font01);
     text-transform: uppercase;
-    
 }
 
 .navbar > ul > li > a{
