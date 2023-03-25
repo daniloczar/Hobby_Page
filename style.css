@@ -59,7 +59,7 @@ header{
     margin: 3px 15px;
 }
 
-.top, h1{
+.top, .h1top{
     display: flex;
     justify-content: space-between;
     align-items: center;
