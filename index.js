@@ -16,7 +16,7 @@ function changeMenu() {
     }
 }
 
- // date and time
+//  date and time
 
  
  const timeElement = document.querySelector("#time");
