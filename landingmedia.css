@@ -24,7 +24,7 @@
     header > section > h1{
         text-align: center;
         font-size:1.5em;
-        color: rgb(0, 47, 255);
+        color: rgb(85, 255, 0);
     }
     #date{
         display: block;
@@ -33,7 +33,7 @@
     }
 
     .container{
-       max-height: 550px;
+       max-height: 500px;
        }
    
 
