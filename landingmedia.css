@@ -12,6 +12,34 @@
     nav > ul > li{
         border: 1px solid #414141;
     }
+
+    .social-media-container > img{
+        display:none;
+    }
+    #time{
+        display: block;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    header > section > h1{
+        text-align: center;
+        font-size:1.5em;
+    }
+    #date{
+        display: block;
+        text-align: center;
+        font-size: 90%;
+    }
+
+    .container{
+       max-height: 450px;
+       }
+   
+
+    footer{
+        padding: 25px;
+    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
