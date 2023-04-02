@@ -2,14 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
-/*
-
-menu topo - background-color: #272727
-menu links fundo color: #333
-letra menu color: #999
-menu link hight: 41px 
-
-*/
 
 *{ box-sizing: border-box;
     padding: 0px;
@@ -138,7 +130,7 @@ header > section > h1 {
     
 }
 
-main > section.sidebar {
+.sidebar {
     position: sticky;
     top: 60px;
     width: 100%;
@@ -149,6 +141,7 @@ main > section.sidebar {
     margin-bottom: 25px;
     height: 50%;
     background-color: rgb(240, 240, 240);
+    
     }
     
     .sidebar div {
@@ -171,7 +164,7 @@ main > section.sidebar {
         cursor: pointer;
         color: #636363;
 }
-
+    
 
 .conteudo{
     display: inline-block;
@@ -196,12 +189,14 @@ main{
 main > section > h1{
     margin: 10px;
     padding: 5px 5px;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 article > h2{
     margin: 5px;
     padding: 5px;
+    text-align: center;
 }
 
 article p {
@@ -212,28 +207,30 @@ article p {
     text-align: justify;
 }
 
-article > ol{
-    list-style-position: inside;
-    margin: 5px;
-    padding: 5px;
-}
-
 article > img{
     display: block;
     width: 80%;
     margin: 10px auto;
     
 }
-.carlos, .maeda{
-    max-width: 400px;
+
+.cite {
+    color: gray;
+    font-size: .8em;
+    text-align: center;
+}
+aside{
+    margin: 25px;
+    padding: 30px;
 }
 
-.video {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
+.links {
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    
 }
+
 
 footer{
     display: block;
