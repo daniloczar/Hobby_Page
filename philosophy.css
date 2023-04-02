@@ -143,7 +143,7 @@ main{
     text-align: center;
 }
 
-.belt > p{
+.philosophy > p{
     margin: 10px;
     padding: 5px;
     text-indent: 20px;
@@ -151,21 +151,25 @@ main{
     text-align: justify;
 }
 
-.belt h1, h2 {
+h1{
     margin: 10px;
     padding: 5px;
 }
 
-.img-belts{
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 0 20px;
-    max-width: 400px;
+
+.philosophy h3 {
+    margin: 10px;
+    padding: 5px;
 }
-.img-top-belt{
+
+.img-master{
     width: 90%;
     margin-bottom: 20px;
     border-radius: 8px;
+}
+
+.philosophy .cite{
+    text-align: center;
 }
 
 footer{
